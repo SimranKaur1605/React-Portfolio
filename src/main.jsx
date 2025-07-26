@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom';
 
 import Layout from './Layout.jsx';
-import Home from './components/Home/home.jsx';
+import Home from './components/Home/Home.jsx';
 import About from './components/About/About.jsx';
 import Projects from './components/Projects/Project.jsx'; // Renamed import for clarity
 import User from './components/User/User.jsx';
