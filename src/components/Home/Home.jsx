@@ -1,5 +1,6 @@
 import React from 'react';
-import profileImage from "../../assets/profile.jpg";
+import profileImage from "../../assets/Profile.jpg";
+
 import ContactImage from '../../assets/Contact.png';
 
 import { FaLinkedin, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
