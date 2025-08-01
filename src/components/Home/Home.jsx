@@ -84,6 +84,9 @@ export default function Home() {
           <div className="space-y-8">
             <Skill title="HTML + CSS" description="Proficient in crafting clean, semantic HTML and responsive CSS for building modern, accessible, and visually appealing web interfaces. Experienced in flexbox, grid layout, and CSS transitions." />
             <Skill title="JAVASCRIPT" description="Skilled in writing clean, efficient, and modular JavaScript code. Capable of DOM manipulation, handling events, and creating dynamic user experiences using React JS." />
+
+            <Skill title="Tailwind CSS" description="Proficient in building responsive, mobile-first interfaces using utility-first classes, customizing themes, and optimizing layouts for performance" />
+  <Skill title="Bootstrap" description="Familiar with using Bootstrap 5 to build responsive layouts, navigation bars, modals, and other UI components. Comfortable working with Bootstrap’s grid system and utility classes" />
             <Skill title="React Js" description="Developed dynamic web applications using React.js, leveraging hooks, reusable components, and routing for optimized user experience." />
             <Skill title="Node Js" description="Exploring backend development with Node.js — building simple, fast, and functional server-side applications." />
             <Skill title="Wordpress" description="Designed and deployed websites using WordPress, including e-commerce and business portfolios, with custom themes, plugins, and responsive design using Elementor and custom CSS." />
