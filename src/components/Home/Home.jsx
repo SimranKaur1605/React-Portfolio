@@ -1,9 +1,10 @@
 import React from 'react';
 import profileImage from "../../assets/Profile.jpg";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 import ContactImage from '../../assets/Contact.png';
 
-import { FaLinkedin, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { SiIndeed } from "react-icons/si";
 
 
@@ -27,15 +28,46 @@ export default function Home() {
               I’m a self-motivated and enthusiastic Web Developer with a solid foundation in frontend and backend technologies.
             </p>
 
-            <a
-              href="https://www.linkedin.com/in/simran-kaur-68a963292/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 mt-6 bg-white text-[#090008] px-6 py-2 rounded-full font-semibold hover:bg-gray-300 transition"
-            >
-              <FaLinkedin className="text-xl" />
-              Connect on LinkedIn
-            </a>
+           
+<div className="flex flex-col items-center justify-center mt-6">
+  {/* Download CV Button */}
+  <a
+    href="https://drive.google.com/your-resume-link" // <-- Replace with actual CV link if needed
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 bg-white text-[#090008] px-6 py-2 rounded-full font-semibold hover:bg-gray-300 transition"
+  >
+    Download CV
+  </a>
+
+  {/* Social Icons: LinkedIn and GitHub side by side */}
+  <div className="flex gap-4 mt-4">
+    {/* LinkedIn Icon */}
+    <a
+      href="https://www.linkedin.com/in/simran-kaur-68a963292/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 bg-white rounded-full hover:bg-gray-300 transition text-[#090008]"
+      title="LinkedIn"
+    >
+      <FaLinkedin className="text-xl" />
+    </a>
+
+    {/* GitHub Icon */}
+    <a
+      href="https://github.com/SimranKaur1605"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 bg-white rounded-full hover:bg-gray-300 transition text-[#090008]"
+      title="GitHub"
+    >
+      <FaGithub className="text-xl" />
+    </a>
+  </div>
+</div>
+
+
+
           </div>
         </div>
       </div>
