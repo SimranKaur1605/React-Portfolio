@@ -6,6 +6,11 @@
     --color-primary:#090008;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .nav-underline::after {
   content: "";
   position: absolute;
@@ -21,6 +26,13 @@
 
 .nav-underline:hover::after {
   width: 100%;
+}
+.btn-glow {
+  box-shadow: 0 0 8px white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-glow:hover {
+  box-shadow: 0 0 15px yellow, 0 0 30px yellow;
 }
 
 .btn-glow::after {
