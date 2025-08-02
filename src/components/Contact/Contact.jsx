@@ -79,7 +79,7 @@ export default function Contact() {
           <p className="text-sm text-gray-300">
             Prefer email?{" "}
             <a
-              href="mailto:kaursimran7511@gmail.com"
+              href="mailto:kaur.simransawna@gmail.com"
               className="underline hover:text-gray-100"
             >
               Send me an email
@@ -89,7 +89,7 @@ export default function Contact() {
       </form>
 
       <div className="max-w-3xl mx-auto text-center mt-10">
-        <p className="text-xs text-gray-500 italic">
+        <p className="text-xs text-white italic">
           I respect your privacy. Your contact details are never shared.
         </p>
       </div>
