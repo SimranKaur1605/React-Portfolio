@@ -23,21 +23,43 @@ export default function Home() {
               I’m a self-motivated and enthusiastic Web Developer with a solid foundation in frontend and backend technologies.
             </p>
 
-            <div className="flex flex-col items-center justify-center mt-6">
-              <a
-                href="https://drive.google.com/file/d/1WLbhAouFaQ7zJDfBF05CumuKuLW-G5jU/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-white text-[#090008] px-6 py-2 rounded-full font-semibold hover:bg-gray-300 transition"
-              >
-                Download CV
-              </a>
+        <div className="flex flex-col items-center justify-center mt-6">
+  <a
+    href="https://drive.google.com/file/d/1WLbhAouFaQ7zJDfBF05CumuKuLW-G5jU/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="  inline-flex items-center gap-2 bg-white text-[#090008]   px-6 py-2 rounded-full font-semibold 
+      hover:bg-gray-300 transition duration-300 ease-in-out
+      hover:shadow-lg hover:shadow-white/60 
+      active:scale-95 active:shadow-[0_0_20px_5px_rgba(255,255,255,0.5)]"
+  >
+    Download CV
+  </a>
 
-              <div className="flex gap-4 mt-4">
-                <a href="https://www.linkedin.com/in/simran-kaur-68a963292/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-full hover:bg-gray-300 transition text-[#090008]" title="LinkedIn"><FaLinkedin className="text-xl" /></a>
-                <a href="https://github.com/SimranKaur1605" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-full hover:bg-gray-300 transition text-[#090008]" title="GitHub"><FaGithub className="text-xl" /></a>
-              </div>
-            </div>
+  <div className="flex gap-4 mt-4">
+    <a
+      href="https://www.linkedin.com/in/simran-kaur-68a963292/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 bg-white rounded-full hover:bg-gray-300 transition duration-300 ease-in-out 
+        text-[#090008] hover:shadow-md hover:shadow-white/50 active:scale-90"
+      title="LinkedIn"
+    >
+      <FaLinkedin className="text-xl" />
+    </a>
+    <a
+      href="https://github.com/SimranKaur1605"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 bg-white rounded-full hover:bg-gray-300 transition duration-300 ease-in-out 
+        text-[#090008] hover:shadow-md hover:shadow-white/50 active:scale-90"
+      title="GitHub"
+    >
+      <FaGithub className="text-xl" />
+    </a>
+  </div>
+</div>
+
           </div>
         </div>
       </div>
