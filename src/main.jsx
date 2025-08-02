@@ -16,8 +16,6 @@ import Projects from './components/Projects/Project.jsx'; // Renamed import for 
 import User from './components/User/User.jsx';
 import Contact from './components/Contact/Contact.jsx'; // This was mistakenly named as "Linkedin"
 
-// Make sure this is the correct component you want for 'linkedin' route
-// If 'Linkedin' is a different component, keep both and import correctly.
 
 const router = createBrowserRouter(
   createRoutesFromElements(

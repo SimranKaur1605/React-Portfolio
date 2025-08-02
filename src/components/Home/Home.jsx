@@ -7,7 +7,7 @@ import { SiIndeed } from "react-icons/si";
 export default function Home() {
   return (
     <>
-      {/* Hero Section */}
+  
       <div className="min-h-screen flex items-center justify-center bg-[#090008] text-white px-2">
         <div className="max-w-4xl w-full flex flex-col md:flex-row items-center md:items-start justify-between">
           <div className="md:mt-0 md:ml-10">
@@ -64,7 +64,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Skills */}
+      
       <section className="min-h-screen bg-[#090008] text-white flex flex-col md:flex-row p-10 md:p-20">
         <div className="md:w-1/4 mb-10 md:mb-0">
           <h2 className="text-4xl font-semibold">Skills</h2>
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tools & Technologies */}
+      
       <section className="bg-[#160b1c] text-white py-16 px-4">
         <h2 className="text-4xl font-semibold text-center mb-12">Tools & Technologies I Use</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Learning Goals */}
+     
       <section className="bg-[#090008] text-white py-16 px-4">
         <h2 className="text-4xl font-semibold text-center mb-8">Currently Learning</h2>
         <div className="max-w-4xl mx-auto grid sm:grid-cols-2 gap-6">
@@ -110,7 +110,7 @@ export default function Home() {
 
       
 
-      {/* Contact Section */}
+      
       <section className="min-h-screen flex items-center justify-around bg-white text-[#3f0d52] px-4 py-8">
         <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-around">
           <div className="w-80 h-72 rounded-lg overflow-hidden">
@@ -132,7 +132,7 @@ export default function Home() {
   );
 }
 
-// Skill Card Component
+
 const Skill = ({ title, description }) => (
   <div>
     <h3 className="text-xl font-bold">{title}</h3>
@@ -140,7 +140,7 @@ const Skill = ({ title, description }) => (
   </div>
 );
 
-// Learning Card Component
+
 const LearningCard = ({ title, desc }) => (
   <div className="bg-[#1f132a] p-6 rounded-xl shadow-md hover:bg-[#2c1a3c] transition duration-300">
     <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -148,7 +148,7 @@ const LearningCard = ({ title, desc }) => (
   </div>
 );
 
-// Contact Item Component
+
 const ContactItem = ({ icon, text, link }) => (
   <div className="flex items-center space-x-4">
     {icon}
